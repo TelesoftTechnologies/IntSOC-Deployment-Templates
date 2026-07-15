@@ -24,9 +24,7 @@ This repository contains pre-configured JSON templates for rapid deployment of M
    cd IntSOC-Deployment-Templates
    ```
 
-2. **Select a template** from the `templates/` directory
-
-3. **Load into IntSOC:**
+2. **Load into IntSOC:**
    - Navigate to **Settings > Machine Learning > Add Deployment**
    - Click the **"From Template"** button
    - Select your JSON template file

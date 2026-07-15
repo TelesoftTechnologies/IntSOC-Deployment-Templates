@@ -1,0 +1,12 @@
+{
+  "name": "anomaly-win32-event-4625",
+  "type": "anomaly",
+  "sourceField": "extension.win32.eventId",
+  "sourceMetric": "event",
+  "filters": [
+    {
+      "type": "equal",
+      "value": "4625"
+    }
+  ]
+}

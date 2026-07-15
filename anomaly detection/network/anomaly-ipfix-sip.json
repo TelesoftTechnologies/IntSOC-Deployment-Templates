@@ -1,0 +1,16 @@
+{
+  "name": "anomaly-ipfix-sip",
+  "type": "anomaly",
+  "sourceField": "destinationTransportPort",
+  "sourceMetric": "octet",
+  "filters": [
+    {
+      "type": "equal",
+      "value": "5060"
+    },
+    {
+      "type": "equal",
+      "value": "5061"
+    }
+  ]
+}

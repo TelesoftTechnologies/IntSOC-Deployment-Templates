@@ -1,0 +1,12 @@
+{
+  "name": "anomaly-ldap",
+  "type": "anomaly",
+  "sourceField": "destinationTransportPort",
+  "sourceMetric": "flow",
+  "filters": [
+    {
+      "type": "equal",
+      "value": "389"
+    }
+  ]
+}

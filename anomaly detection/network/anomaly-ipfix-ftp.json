@@ -1,0 +1,12 @@
+{
+  "name": "anomaly-ftp",
+  "type": "anomaly",
+  "sourceField": "destinationTransportPort",
+  "sourceMetric": "octet",
+  "filters": [
+    {
+      "type": "equal",
+      "value": "21"
+    }
+  ]
+}

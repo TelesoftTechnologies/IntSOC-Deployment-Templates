@@ -1,0 +1,12 @@
+{
+  "name": "anomaly-ipfix-dns",
+  "type": "anomaly",
+  "sourceField": "destinationTransportPort",
+  "sourceMetric": "octet",
+  "filters": [
+    {
+      "type": "equal",
+      "value": "53"
+    }
+  ]
+}

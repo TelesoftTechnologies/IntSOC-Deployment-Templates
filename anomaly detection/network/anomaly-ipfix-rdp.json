@@ -1,0 +1,12 @@
+{
+  "name": "anomaly-rdp",
+  "type": "anomaly",
+  "sourceField": "destinationTransportPort",
+  "sourceMetric": "octet",
+  "filters": [
+    {
+      "type": "equal",
+      "value": "3389"
+    }
+  ]
+}

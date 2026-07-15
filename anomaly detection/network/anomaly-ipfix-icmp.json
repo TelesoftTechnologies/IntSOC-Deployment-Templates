@@ -1,0 +1,12 @@
+{
+  "name": "anomaly-icmp",
+  "type": "anomaly",
+  "sourceField": "protocolIdentifier",
+  "sourceMetric": "octet",
+  "filters": [
+    {
+      "type": "equal",
+      "value": "1"
+    }
+  ]
+}

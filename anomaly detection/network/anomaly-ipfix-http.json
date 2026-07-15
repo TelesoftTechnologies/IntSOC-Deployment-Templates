@@ -1,0 +1,16 @@
+{
+  "name": "anomaly-ipfix-http",
+  "type": "anomaly",
+  "sourceField": "destinationTransportPort",
+  "sourceMetric": "octet",
+  "filters": [
+    {
+      "type": "equal",
+      "value": "80"
+    },
+    {
+      "type": "equal",
+      "value": "443"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "anomaly-tcp-syn-flood",
+  "type": "anomaly",
+  "sourceField": "tcpControlBits",
+  "sourceMetric": "flow",
+  "filters": [
+    {
+      "type": "equal",
+      "value": "2"
+    }
+  ]
+}

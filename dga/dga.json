@@ -1,0 +1,7 @@
+{
+  "name": "dga",
+  "type": "dga",
+  "sourceField": "",
+  "whitelist": "*.cloudfront.net,*.cloudfront.com,*.cloudflare.com,*.cloudflare.net,*.workers.dev,*.azureedge.net,*.azurefd.net,*.trafficmanager.net,*.windows.net,*.blob.core.windows.net,*.amazonaws.com,*.elasticbeanstalk.com,*.fastly.net,*.fastlylb.net,*.akamaiedge.net,*.akamai.net,*.akamaized.net,*.edgesuite.net,*.edgekey.net,*.cdn77.org,*.stackpathdns.com,*.impervadns.net,*.footprintdns.com,*.office.com,*.office365.com,*.microsoft.com,*.microsoftonline.com,*.msedge.net,*.live.com,*.outlook.com,*.teams.microsoft.com,*.sophosxl.net,*.mcl.io,*.wowscale.com,*.conviva.com,*.cws.conviva.com,*.lpsnmedia.net,*.googleapis.com,*.gvt1.com,*.gvt2.com,*.googleusercontent.com,*.gstatic.com,*.googlevideo.com,*.1e100.net,*.doubleclick.net,*.googleadservices.com,*.apple.com,*.icloud.com,*.mzstatic.com,*.apple-dns.net,*.icloud-content.com,*.facebook.com,*.fbcdn.net,*.fbsbx.com,*.instagram.com,*.whatsapp.net,*.cdn.discordapp.com,*.discord.gg,*.slack.com,*.slack-edge.com,*.zoom.us,*.okta.com,*.duosecurity.com,*.githubusercontent.com,*.github.com",
+  "THRESHOLD": "95"
+}
